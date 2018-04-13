@@ -1,5 +1,5 @@
 def turn_count(board)
-loop do 
+loop do
   counter=0
 
 if counter<board.length
