@@ -1,6 +1,6 @@
 def turn_count(board)
 counter=0
-while board[counter]=="X" || board[counter]=="O"
+while counter<board.length
   counter+=1
 end
 end
