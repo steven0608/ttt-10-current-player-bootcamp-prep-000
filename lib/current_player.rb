@@ -1,10 +1,6 @@
 def turn_count(board)
-  counter=0
-loop do
-counter+=1
-if counter>=board.length
-  break
-end
+counter=0
+board.each do |x| counter+=1
 end
 end
 
