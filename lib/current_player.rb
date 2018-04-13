@@ -1,9 +1,9 @@
 def turn_count(board)
-loop do
   counter=0
-
-if counter<board.length
-  counter+=1
+loop do
+counter+=1
+if counter>=board.length
+  break
 end
 end
 end
