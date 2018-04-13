@@ -1,7 +1,10 @@
 def turn_count(board)
-counter=0
+loop do 
+  counter=0
+
 if counter<board.length
   counter+=1
+end
 end
 end
 
